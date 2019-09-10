@@ -37,6 +37,15 @@ Possbible credit card enumeration based upon errors returned by CC processor
 
 ### Recommendation
 
+## 5. Using components with known vulnerabilities
+
+### Description
+Dependency	Vulnerability IDs	Package	Highest Severity	CVE Count	Confidence	Evidence Count
+bson:1.0.4		pkg:npm/bson@1.0.4	HIGH	1		6
+bson:0.5.7		pkg:npm/bson@0.5.7	HIGH	1		6
+
+### Rcommendations
+!Don't! 
 # Notes for you/your team
 
 Behavior
