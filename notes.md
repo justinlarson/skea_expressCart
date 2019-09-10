@@ -53,6 +53,8 @@ Checklist of things to review based on Brainstorming and Tech Stack
 - [ ] PCI data being stored
 - [ ] Error being returned by invalid cards 
     * [Possibly returning verbose errors with Paypal](https://github.com/mrvautin/expressCart/blob/399343a09d31977a75091a69ab4bbb527454a4b6/routes/payments/paypal.js#L63-L67) could be used to enumerate cards, Paypal relies on the error from the processor 
+    * [Verbose Errors sent to client console.log, Authorize.Net](https://github.com/mrvautin/expressCart/blob/399343a09d31977a75091a69ab4bbb527454a4b6/routes/payments/authorizenet.js#L44-L49) [Ref](https://developer.authorize.net/api/reference/index.html)
+    
 - [ ] How are emails put together
 - [ ] Cart and checkout procedures 
 - [ ] check how the app integrates with third parties
@@ -64,6 +66,7 @@ Checklist of things to review based on Brainstorming and Tech Stack
 - [ ] API access vs UI access
 - [ ] Strong API key generation
 - [ ] File upload process
+- [ ] MD5 usage 
 
 Mapping / Routes
 
