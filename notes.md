@@ -119,6 +119,7 @@ Mapping / Routes
 - [ ] routes/user.js:90:router.post('/admin/user/update',
 - [ ] routes/user.js:143:router.post('/admin/user/insert',
 - [ ] routes/index.js:21:router.get('/payment/:orderId',
+    * [IDOR](https://github.com/mrvautin/expressCart/blob/399343a09d31977a75091a69ab4bbb527454a4b6/routes/index.js#L21-L69), no checks on who can access previous orders
 - [ ] routes/index.js:71:router.get('/checkout',
 - [ ] routes/index.js:97:router.get('/pay',
 - [ ] routes/index.js:124:router.get('/cartPartial',
@@ -183,4 +184,9 @@ Mapping / Routes
 ## Mapping / Files
 
 - [ ] /path/to/some/important/file.sh
+
+
+## Interesting Things
+
+- [ ] 
 
