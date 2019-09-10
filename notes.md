@@ -52,7 +52,7 @@ Checklist of things to review based on Brainstorming and Tech Stack
 - [ ] Look for instances of `{{{ }}}` in the template/views
 - [ ] PCI data being stored
 - [ ] Error being returned by invalid cards 
-[Possibly returning verbose errors](https://github.com/mrvautin/expressCart/blob/399343a09d31977a75091a69ab4bbb527454a4b6/routes/payments/paypal.js#L63-L67) could be used to enumerate cards
+    *[Possibly returning verbose errors with Paypal](https://github.com/mrvautin/expressCart/blob/399343a09d31977a75091a69ab4bbb527454a4b6/routes/payments/paypal.js#L63-L67) could be used to enumerate cards, Paypal relies on the error from the processor 
 - [ ] How are emails put together
 - [ ] Cart and checkout procedures 
 - [ ] check how the app integrates with third parties
@@ -105,6 +105,7 @@ Mapping / Routes
 - [ ] routes/customer.js:152:router.post('/customer/login_action',
 - [ ] routes/customer.js:195:router.get('/customer/forgotten',
 - [ ] routes/customer.js:209:router.post('/customer/forgotten_action',
+    * [Username Enumeration](https://github.com/mrvautin/expressCart/blob/399343a09d31977a75091a69ab4bbb527454a4b6/routes/customer.js#L209-L243)
 - [ ] routes/customer.js:245:router.get('/customer/reset/:token',
 - [ ] routes/customer.js:272:router.post('/customer/reset/:token',
 - [ ] routes/customer.js:303:router.post('/customer/logout',
