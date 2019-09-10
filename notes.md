@@ -1,6 +1,38 @@
 
 ---
 commit 399343a09d31977a75091a69ab4bbb527454a4b6
+ Findings
+
+## 1. Lack of CSRF protections
+
+### Description
+
+Describe some stuff.
+
+### Recommendation
+
+Recommend some stuff.
+
+## 2. Username Enumeration
+
+### Description
+
+Returns whether the account exists or not.
+
+### Recommendation
+
+Return generic response *Email sent* 
+
+
+## 3. Verbose Error Messages 
+
+### Description
+
+Possbible credit card enumeration based upon errors returned by CC processor
+
+### Recommendation
+
+Recommend some stuff.
 
 # Notes for you/your team
 
